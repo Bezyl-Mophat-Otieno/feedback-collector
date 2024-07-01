@@ -9,3 +9,8 @@
 </body>
 
 </html>
+<?php
+
+// Remember to close the connection when done
+mysqli_close($connection);
+?>

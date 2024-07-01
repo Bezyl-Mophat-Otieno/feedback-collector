@@ -19,6 +19,3 @@ if (!$connection) {
     // Successfully connected to the database
     echo 'Connected to the database.';
 }
-
-// Remember to close the connection when done
-mysqli_close($connection);
