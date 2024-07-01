@@ -1,9 +1,9 @@
 <?php include 'inc/header.php'?>
 <main>
     <div class="container d-flex flex-column align-items-center">
-        <img src="/php-crash/feedback/img/logo.png" class="w-25 mb-3" alt="">
+        <img src="/public/img/logo.png" class="w-25 mb-3" alt="">
         <h2>Feedback</h2>
-        <p class="lead text-center">Leave feedback for Traversy Media</p>
+        <p class="lead text-center">Leave feedback for Mophat.Dev</p>
         <form action="" class="mt-4 w-75">
             <div class="mb-3">
                 <label for="name" class="form-label">Name</label>
