@@ -14,8 +14,17 @@ if (!$connection) {
     // Log the error message for debugging
     error_log('Database connection failed: '. mysqli_connect_error());
     // Optionally, display a user-friendly message
-    echo 'Failed to connect to the database.';
+    echo '
+        <div class="alert text-center alert-danger" role="alert">
+            Failed to connect to the database.
+        </div>
+    ';
 } else {
     // Successfully connected to the database
-    echo 'Connected to the database.';
+    echo '
+        <div class="alert text-center alert-success" role="alert">
+            Connected to the database.
+        </div>
+    
+    ';
 }
